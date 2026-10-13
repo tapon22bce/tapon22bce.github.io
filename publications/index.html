@@ -56,8 +56,7 @@
   <main class="container">
     <div class="post">
       <header class="post-header">
-        <h1 class="post-title">Publications</h1>
-        <p class="post-description">Grouped by year, newest first. * denotes equal contribution.</p>
+        <h1 class="post-title">Publications</h1>        
         <div class="pub-profiles">
           <a href="https://scholar.google.com/citations?user=hwCwrJQAAAAJ&hl=en" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 512 512" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/></svg>Google Scholar Profile</a>
           <a href="https://www.researchgate.net/profile/Tapon-K-Ray" target="_blank" rel="noopener"><svg class="icon" viewBox="0 0 448 512" width="0.875em" height="1em" aria-hidden="true" focusable="false"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"/></svg>ResearchGate Profile</a>
@@ -100,7 +99,7 @@
                 </div>
                 <div class="abstract hidden"><div class="box"><p>
                   <!-- TODO: paste abstract -->
-                  Abstract coming soon.
+                  Voice-assistant interruptions tend to be intrusive because existing systems fail to consider the affective state, cognitive load and situational context of the user when deciding when and how to interrupt.Voice-assistant interruptions tend to be intrusive, since existing systems do not consider the affective state, cognitive load or situational context of the user when determining when and how to interrupt. In this paper, EmpathicVA, a closed-loop framework integrating physiological sensing, vocal-affect analysis, contextual modeling and reinforcementlearning interruption policy, is introduced. A hierarchical fusion model involves integrating HRA, EDA, respiration, acousticprosodic features, linguistic embeddings, and contextual cues and computing the probabilities of five affective states. A Double Deep Q-Network selects immediate response, brief or extended delay, empathetic response, or silent mode based on these probabilities, context and interaction history. The multimodal model obtained an accuracy of 92.3% and an F1-score of 0.922 at the research [5, 6]; and RL-based dialogue policy learning has been explored in recent research [13]. However, these lines of research tend to be kept apart. Context-aware systems typically do not require an affect estimate from the system to be calibrated, but rather sense observed activity; Emotionrecognition systems often optimize the classification without any linkage to the interaction policy; Adaptive dialogue systems seldom incorporate physiological costs for intrusive timing. Macro level on a held-out test set, outperforming the highest accuracy unimodal model by 6.0 percentage points. Comparing the six-week within-subject field study with 48 participants with a baseline and context-only assistants, there was a corresponding increase in satisfaction, trust, and appropriateness of timing, as well as a large reduction in interruption-related stress episodes. The results suggest that affect-aware timing and restraint are both important in voice interaction in addition to the response wording.
                 </p></div></div>
                 <div class="bibtex hidden"><pre><button class="copy-bib" type="button">Copy</button><code>@inproceedings{ray2026contextaware,
   title     = {Context-Aware Emotionally Adaptive Voice Assistants: A Multi-Modal Framework for Empathetic Human-Agent Interaction},
@@ -129,7 +128,7 @@
                 </div>
                 <div class="abstract hidden"><div class="box"><p>
                   <!-- TODO: paste abstract -->
-                  Abstract coming soon.
+                  Constructing optimal binary search trees under two-way comparisons is significantly more challenging than in the classical three way model: two-way comparisons induce complex “punctured intervals” in the Dynamic Programming(DP) state space, potentially resulting in exponential sub-problem growth. In particular, the state-of-the-art algorithm for two-way comparisons runs in On4 time, which becomes infeasible for large datasets with millions of keys. The proposed work presents a novel On2logn2 time algorithm for constructing optimal search trees with two-way comparisons, improving on the current best On4 complexity. The approach introduces Hierarchical Weight Partitioning(HWP), a segment-based dynamic programming framework that partitions the weight space into hierarchical segments, enabling efficient pruning of equivalent sub-problems while preserving optimality. The algorithm leverages a multi-level segment tree data structure with adaptive threshold selection to achieve logarithmic improvements in both time and space complexity for practical instances. Experimental evaluation on synthetic and real-world datasets demonstrates 3 to 8 times speedups with upto 60% memory reduction compared to existing methods. Our work provides the first sub-cubic solution for this fundamental problem. These results impact new possibilities for efficient inference in AI systems that rely on search structures (e.g., decision-tree models or data indexes).
                 </p></div></div>
                 <div class="bibtex hidden"><pre><button class="copy-bib" type="button">Copy</button><code>@inproceedings{yesuraj2026obst_ncur,
   title     = {Segment-Based Dynamic Programming for Optimal Binary Search Trees: A Sub-Cubic Algorithm with Hierarchical Weight Partitioning},
@@ -142,33 +141,7 @@
               </div>
             </div>
           </li>
-
-          <li id="algorithmica">
-            <div class="pub-row">
-              <div class="abbr"><abbr title="Algorithmica (Springer)">Algorithmica</abbr></div>
-              <div class="pub">
-                <div class="title">Segment-Based Dynamic Programming for Optimal Binary Search Trees: A Sub-Cubic Algorithm with Hierarchical Weight Partitioning</div>
-                <div class="author"><a href="https://scholar.google.com/citations?user=4vbWIWMAAAAJ&hl=en" target="_blank" rel="noopener">Rajkumar Yesuraj</a>, and <em>Tapon Kumer Ray</em></div>
-                <div class="periodical"><em>Algorithmica</em>, Springer, 2026 <span class="tag rev">Under Review</span></div>
-                <div class="links">
-                  <button class="btn" data-toggle="abstract" aria-expanded="false">Abs</button>
-                  <button class="btn" data-toggle="bibtex" aria-expanded="false">Bib</button>
-                </div>
-                <div class="abstract hidden"><div class="box"><p>
-                  <!-- TODO: paste abstract -->
-                  Abstract coming soon.
-                </p></div></div>
-                <div class="bibtex hidden"><pre><button class="copy-bib" type="button">Copy</button><code>@article{yesuraj2026obst,
-  title   = {Segment-Based Dynamic Programming for Optimal Binary Search Trees: A Sub-Cubic Algorithm with Hierarchical Weight Partitioning},
-  author  = {Yesuraj, Rajkumar and Ray, Tapon Kumer},
-  journal = {Algorithmica},
-  note    = {Under review},
-  year    = {2026}
-}</code></pre></div>
-              </div>
-            </div>
-          </li>
-
+          
         </ol>
 
         <!-- ======================= 2025 ======================= -->
@@ -192,7 +165,7 @@
                 </div>
                 <div class="abstract hidden"><div class="box"><p>
                   <!-- TODO: paste abstract -->
-                  Abstract coming soon.
+                  Plant disease classification via imaging is a critical task in precision agriculture. We propose XMACNet, a novel light-weight Convolutional Neural Network (CNN) that integrates self-attention and multi-modal fusion of visible imagery and vegetation indices for chili disease detection. XMACNet uses an EfficientNetV2S backbone enhanced by a self-attention module and a fusion branch that processes both RGB images and computed vegetation index maps (NDVI, NPCI, MCARI). We curated a new dataset of 12,000 chili leaf images across six classes (five disease types plus healthy), augmented synthetically via StyleGAN to mitigate data scarcity. Trained on this dataset, XMACNet achieves high accuracy, F1-score, and AUC, outperforming baseline models such as ResNet-50, MobileNetV2, and a Swin Transformer variant. Crucially, XMACNet is explainable: we use Grad-CAM++ and SHAP to visualize and quantify the model’s focus on disease features. The model’s compact size and fast inference make it suitable for edge deployment in real-world farming scenarios.
                 </p></div></div>
                 <div class="bibtex hidden"><pre><button class="copy-bib" type="button">Copy</button><code>@inproceedings{ray2025xmacnet,
   title     = {XMACNet: An Explainable Lightweight Attention-Based CNN with Multi-Modal Fusion for Chili Disease Classification},
@@ -223,7 +196,7 @@
                 </div>
                 <div class="abstract hidden"><div class="box"><p>
                   <!-- TODO: paste abstract -->
-                  Abstract coming soon.
+                  Current multi-agent systems lack temporal coherence in emotional state modelling, leading to jarring transitions and reduced user trust during collaborative tasks. We introduce Temporal Affective Resonance Networks (TARN), a novel architecture that models emotional contagion and synchronization between humans and multiple AI agents using dynamic graph neural networks with attention-based temporal fusion. TARN captures emotional state transitions across multi-second windows and enforces consistency constraints that prevent emotional whiplash in collaborative scenarios. Our system integrates physiological sensors (EEG, GSR, HRV) with linguistic sentiment analysis through a hierarchical variational autoencoder that learns joint humanAI emotional trajectories. A temporal consistency loss function ensures smooth affective transitions while maintaining responsiveness to genuine emotional shifts. Evaluation across 120 participants in creative problem-solving tasks demonstrates 34% improvement in perceived emotional intelligence, 28% reduction in trust degradation during handoffs, and 41% better taska outcomes compared to independent agent baselines.
                 </p></div></div>
                 <div class="bibtex hidden"><pre><button class="copy-bib" type="button">Copy</button><code>@inproceedings{ray2025synchronous,
   title     = {Synchronous Emotional Dynamics in Human-AI Collaborative Networks: A Temporal Graph Neural Network Approach},
